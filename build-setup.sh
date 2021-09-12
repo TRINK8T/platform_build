@@ -21,6 +21,11 @@ rm -rf device/xiaomi/nitrogen
 [ -d "vendor/nitrogen" ] && rm -rf device/qcom/sepolicy_vndr
 [ -d "vendor/nitrogen" ] && rm -rf packages/apps/NitrogenSettings
 
+# Wipe Nitrogen OS Hardware dependencies
+[ -d "vendor/nitrogen" ] && rm -rf hardware/libhardware
+[ -d "vendor/nitrogen" ] && rm -rf system/libhwbinder
+[ -d "vendor/nitrogen" ] && rm -rf vendor/qcom/opensource/interfaces
+
 # Wipe common dependencies
 rm -rf device/xiaomi/ginkgo
 rm -rf vendor/xiaomi/ginkgo
@@ -54,6 +59,11 @@ rm -rf hardware/google/pixel-sepolicy/thermal
 [ -d "vendor/nitrogen" ] && git clone https://github.com/TRINKET-ANDROID/device_qcom_sepolicy_nitrogen.git -b 11.0 device/qcom/sepolicy_vndr
 [ -d "vendor/nitrogen" ] && git clone https://github.com/TRINKET-ANDROID/packages_apps_NitrogenSettings.git -b 11.0 packages/apps/NitrogenSettings
 [ -d "vendor/nitrogen" ] && git clone https://github.com/TRINKET-ANDROID/packages_apps_Matlog.git -b 11.0 packages/apps/Matlog
+
+# Track Nitrogen OS Hardware dependencies
+[ -d "vendor/nitrogen" ] && git clone https://github.com/TRINKET-ANDROID/hardware_libhardware.git -b 11.0 hardware/libhardware
+[ -d "vendor/nitrogen" ] && git clone https://github.com/TRINKET-ANDROID/system_libhwbinder.git -b 11.0 system/libhwbinder
+[ -d "vendor/nitrogen" ] && git clone https://github.com/TRINKET-ANDROID/vendor_qcom_opensource_interfaces.git -b 11.0 vendor/qcom/opensource/interfaces
 
 # Track common dependencies
 git clone https://github.com/TRINKET-ANDROID/device_xiaomi_ginkgo.git -b 11.0 device/xiaomi/ginkgo
