@@ -15,6 +15,7 @@
 rm -rf device/xiaomi/syberia
 [ -d "vendor/syberia" ] && rm -rf device/qcom/sepolicy_vndr
 [ -d "vendor/syberia" ] && rm -rf device/google/redbull/powerstats
+[ -d "vendor/syberia" ] && rm -rf vendor/syberia
 
 # Wipe Nitrogen OS dependencies
 rm -rf device/xiaomi/nitrogen
@@ -56,6 +57,7 @@ rm -rf external/ant-wireless/antradio-library
 # Track Syberia OS dependencies
 [ -d "vendor/syberia" ] && git clone https://github.com/TRINKET-ANDROID/device_xiaomi_syberia.git -b 11.0 device/xiaomi/syberia
 [ -d "vendor/syberia" ] && git clone https://github.com/TRINKET-ANDROID/device_qcom_sepolicy_syberia.git -b 11.0 device/qcom/sepolicy_vndr
+[ -d "vendor/syberia" ] && git clone https://github.com/TRINKET-ANDROID/vendor_syberia.git -b 11.0 vendor/syberia
 
 # Track Nitrogen OS dependencies
 [ -d "vendor/nitrogen" ] && git clone https://github.com/TRINKET-ANDROID/device_xiaomi_nitrogen.git -b 11.0 device/xiaomi/nitrogen
