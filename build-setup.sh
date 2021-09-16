@@ -49,6 +49,9 @@ rm -rf hardware/google/pixel-sepolicy/powerstats
 rm -rf hardware/google/pixel/pwrstats_util
 rm -rf hardware/google/pixel/thermal
 rm -rf hardware/google/pixel-sepolicy/thermal
+rm -rf external/ant-wireless/ant_native
+rm -rf external/ant-wireless/ant_service
+rm -rf external/ant-wireless/antradio-library
 
 # Track Syberia OS dependencies
 [ -d "vendor/syberia" ] && git clone https://github.com/TRINKET-ANDROID/device_xiaomi_syberia.git -b 11.0 device/xiaomi/syberia
