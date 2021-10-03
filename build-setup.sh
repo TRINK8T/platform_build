@@ -89,7 +89,9 @@ git clone https://github.com/TRINKET-ANDROID/external_ant-wireless_hidl -b 11.0 
 git clone https://github.com/TRINKET-ANDROID/external_ant-wireless_ant_native -b 11.0 external/ant-wireless/ant/native
 git clone https://github.com/TRINKET-ANDROID/external_json-c.git -b 11.0 external/json-c
 git clone https://github.com/TRINKET-ANDROID/packages_resources_devicesettings.git -b 11.0 packages/resources/devicesettings
+git clone https://github.com/TRINKET-ANDROID/packages_apps_Eleven.git -b 11.0 packages/apps/Eleven
 git clone https://github.com/TRINKET-ANDROID/packages_apps_FMRadio.git -b 11.0 packages/apps/FMRadio
+git clone https://github.com/TRINKET-ANDROID/packages_apps_Recorder.git -b 11.0 packages/apps/Recorder
 git clone https://github.com/TRINKET-ANDROID/vendor_qcom_opensource_libfmjni.git -b 11.0 vendor/qcom/opensource/libfmjni
 git clone https://github.com/TRINKET-ANDROID/vendor_qcom_opensource_fm-commonsys.git -b 11.0 vendor/qcom/opensource/fm-commonsys
 git clone https://github.com/TRINKET-ANDROID/vendor_qcom_opensource_power.git -b 11.0 vendor/qcom/opensource/power
