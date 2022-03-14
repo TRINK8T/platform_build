@@ -101,4 +101,4 @@ git clone https://github.com/TRINKET-ANDROID/vendor_support-lib.git -b 11.0 vend
 git clone https://github.com/TheHitMan7/android_kernel_sm6125.git -b linux-4.14.y kernel/xiaomi/ginkgo
 
 # Track WireGuard Android
-[ -f "/scripts/fetch-latest-wireguard.sh" ] && ./scripts/fetch-latest-wireguard.sh
+[ -f "kernel/xiaomi/ginkgo/scripts/fetch-latest-wireguard.sh" ] && . kernel/xiaomi/ginkgo/scripts/fetch-latest-wireguard.sh
