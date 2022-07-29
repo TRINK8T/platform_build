@@ -5,7 +5,7 @@
 
 # Clone this script in your ROM repository using following commands
 # cd repository
-# curl https://raw.githubusercontent.com/TRINKET-ANDROID/platform_build/11.0/keystore-setup.sh > keystore-setup.sh
+# curl https://raw.githubusercontent.com/TRINK8T/platform_build/11.0/keystore-setup.sh > keystore-setup.sh
 #
 # Install keystore patch using following commands
 # chmod +x keystore-setup.sh
